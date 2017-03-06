@@ -117,7 +117,7 @@ The 1 represents the 1 gained production. The 10 represents the 10 lost units. T
 Above I presented my scoring of the possible actions of a factory. The actions are then sorted by score and done from best to worst untill all sparable_units have been used. I now describe the actions.
 
 ####Attack Neutral
-Send no more than the required forces calculated by the Required_To_Take_Neutral() function used in the score evaluation. But do send even if you don't have all the required units. I believe this helped mostly in situations where no factory could send enough units, but alltogether there were enough sparable units to take the factory. My AI does not think globally. It thinks in a greedy way from the point of view of every factory, so factories don't coordinate intentionally to send forces to a neutral.
+Send no more than the required forces calculated by the Required_To_Take_Neutral() function used in the score evaluation. But do send even if you don't have all the required units. I believe this helped mostly in situations where no factory could send enough units, but altogether there were enough sparable units to take the factory. My AI does not think globally. It thinks in a greedy way from the point of view of every factory, so factories don't coordinate intentionally to send forces to a neutral.
 
 ####Attack Enemy
 Send all available units, you never know what the enemy might be able to defend with.
