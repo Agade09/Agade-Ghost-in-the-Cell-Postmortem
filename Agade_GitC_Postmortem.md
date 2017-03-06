@@ -58,7 +58,7 @@ Where Paths_Through is the number of "Best Paths" that go through it from any fa
 
 ###Move Selection
 
-My move selection followed an arbitrary pattern of, for every factory I had I would chose moves for the units that wern't needed for defense in the next 5 turns which is computed using known troop movements. In pseudocode:
+My move selection followed an arbitrary pattern of, for every factory I had I would chose moves for the units that wern't needed for defense in the next 5 turns which is computed using known troop movements and production. In pseudocode:
 
 ```
 for(int i in My_Factories){
