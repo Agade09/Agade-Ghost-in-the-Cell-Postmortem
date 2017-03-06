@@ -144,7 +144,7 @@ If a bomb is coming next turn on a factory then sparable_units=all_units.
 
 Bombs are a very important early game tool that can easily make or break the game. My goal with bombs is to deny production, the killing of units being too uncertain. Bombing a factory with a production of 2/3 denies 10/15 early game units which is huge.
 
-###Sending
+####Sending
 
 I send both my bombs on the first turn to any factory I believe the enemy will own within 10 turns. I determine future owners by self playing 10 turns with no bombs and no increase. This might seem like a risky move, I could even help my opponent by killing neutral units for him. But it seemed to be well worth the risk as it gives an early game advantage that can often lead to victory. If the enemy tries to wait for the bomb to hit and kill off the neutrals for him, he might lose out on production by waiting anyway and/or guess wrong.
 
@@ -156,7 +156,7 @@ pow(production,3)/Time_To_Bomb
 
 This mostly aims at the highest producing factories but is willing to make a compromise between denying more units later and denying less units now.
 
-###Guessing
+####Guessing
 
 I guess the enemy bombs very much like I send them. But I consider a factory a potential target if it is in my first ten turns future owners list or if I will be the owner according to current troop movements. When I guess a bomb I store a sorted list of candidates. Should the guess turn out to be wrong, I pick the next candidate on the list.
 
