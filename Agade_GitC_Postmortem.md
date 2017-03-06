@@ -54,7 +54,7 @@ How much is factory i worth? In pseudo code:
 Value[i]=Production[i]+0.01*pow(Paths_Through[i],0.5)+0.1
 ```
 
-Where Paths_Through is the number of "Best Paths" that go through it from any factory to any other factory. A factory that has alot of pathes going through it has a bit more strategic value. A factory with no paths going through it and no production is still worth something because its production could be increased.
+Where Paths_Through is the number of "Best Paths" that go through it from any factory to any other factory. A factory that has alot of paths going through it has a bit more strategic value. A factory with no paths going through it and no production is still worth something because its production could be increased.
 
 ###Move Selection
 
