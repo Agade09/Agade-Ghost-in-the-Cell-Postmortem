@@ -38,7 +38,7 @@ In this game the smallest advantage over your opponent could allow you to get an
 
 In every map there were ways to go from A to B by going through intermediate factories in <= time. This doesn't only save time, it also obscures your troop movements to the enemy, allows you to redirect units elsewhere should the situation have changed by the time the units get to the intermediate factory and helps your AI defend/increase with minimal effort.
 
-I compute a BestPath from every factory to every factory. A path is considered the best if its cost in turns is <= to every other path and the amount of intermediate factories is <= to every other path. In other words, favor paths with as many intermediaries as possible without taking detours. 
+I compute a BestPath from every factory to every factory. A path is considered the best if its cost in turns is <= to every other path and the amount of intermediate factories is >= to every other path. In other words, favor paths with as many intermediaries as possible without taking detours. 
 
 Be mindful that the time lenth of a path is different to the space length of that path. You have to add an extra turn per factory in the path because it takes a turn to send a troop. For example if Distance(A,B)==1 Turns(A,B)=2 and Turns(A,B,C)=Distance(A,B,C)+2.
 
