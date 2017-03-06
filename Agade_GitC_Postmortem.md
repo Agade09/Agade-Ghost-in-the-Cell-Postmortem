@@ -166,7 +166,7 @@ The different version of the above heuristics performed quite well, they wern't 
 
 This led to a huge gain in win rate. The AI would increase whenever it could and, to its knowledge, whenever it couldn't get punished for it.
 
-To be more specific I don't simulate 20 turns with increasing on, I simulate 20 turns of increasing until 1 increase is done. The the question is, is this a winning or losing position? So I continue the self play with increasing disabled to check this.
+To be more specific I don't simulate 20 turns with increasing on, I simulate 20 turns of increasing until 1 increase is done. Then the question is, is this a winning or losing position? So I continue the self play with increasing disabled to check this.
 
 ##Conclusion
 
