@@ -26,7 +26,7 @@ In the last hour of the competition I found an improvement to my bomb sending lo
 
 ##AI Hiding
 
-At the top, at every contest, there are players who submit inferior version of their code to the online arena and only release their real code at the end. You might call it competitive behavior, but I call it anti-competitive behavior. If everyone does it, there is no more competition. I am happy that I won without such tactics. In the arena you could always find my latest version.
+At the top, at every contest, there are players who submit inferior versions of their code to the online arena and only release their real code at the end. You might call it competitive behavior, but I call it anti-competitive behavior. If everyone does it, there is no more competition. I am happy that I won without such tactics. In the arena you could always find my latest version.
 
 ##Heuristics
 
